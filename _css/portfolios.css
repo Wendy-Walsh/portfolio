@@ -1,0 +1,426 @@
+@charset "utf-8";
+/* CSS Document */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*  END eric meyer reset*/  
+
+
+   
+/* Desktop/Laptop style declarations */
+
+
+body {background:#fff; color:#000; margin:0 auto; padding:1em; font-family:Segoe, "Segoe UI", Trebuchet, Verdana, sans-serif; font-size:1em; line-height: 1.1em; max-width:60em; }
+
+body.front-page {
+max-width: 60em;
+margin: 0 auto;
+background: #848585; 
+text-align: center;
+}
+
+
+body.front-page .tagline {
+    background: none repeat scroll 0 0;
+    margin: 0 7% 1em;
+    overflow: visible;
+    width: 86%;
+}
+
+body.front-page .tagline p {
+    background: none repeat scroll 0 0 #FFFFFF;
+	padding: 0.2em 0;
+    color: #848585;
+    font-size: 1.2em;
+    font-weight: bold;
+    line-height: 1.3em;
+	text-transform: uppercase;
+}
+
+body.front-page .tagline p.logostrip {
+    background: none repeat scroll 0 0 #FFFFFF;
+    color: #848585;
+    font-size: 1.2em;
+    font-weight: bold;
+    line-height: 1.3em;
+    text-transform: uppercase;
+}
+
+.logo {
+   background:url(../logo-ms-walsh-bw@1x.png) no-repeat;
+   width: 144px;
+   height: 144px;
+   margin: 1em auto 0;
+   border:none;
+}
+
+img {border:none;}
+
+b, strong {
+font-weight:bold;	
+}
+
+/*  END header styles  */
+.aboutme {color: #000; background:#ff9900;}
+.resume {color: #000; background:#42C268;}
+.klab {color: #000; background:#42C268;}
+.perkin {color: #000; background:#b0eb6d;}
+.nejm {color: #000; background:#3ac6ef;}
+.ascboston {color: #000; background:#b5aafa;}
+.kid {color: #000; background:#fd89ee;}
+.books {color: #000; background:#b4986c;}
+
+nav {clear:both;}
+
+h3 {
+	color:#fff;	
+	font-size: 1.8em;
+	line-height:2.5em;
+	font-weight:bold;
+	margin:0;
+}
+
+h6 {display: none;}
+
+
+nav > a {
+	display:inline-block;
+	width:17em;
+	min-height:8em;
+	margin:1em;
+	padding:0.2em 1em;
+	border:thick solid #fff;
+	text-align:center;
+	vertical-align:bottom;
+	text-decoration:none;
+	color:#fff;
+}
+
+
+a > p {
+	display: block;
+	margin: 0.5em 0;
+	color: #000;
+	font-size:0.9em;
+	line-height: 1.2em;
+    text-decoration: none;
+	white-space: nowrap;
+}
+
+
+
+nav > a.aboutme {color: #fff; background: #FF9900; }
+
+nav > a.resume {color: #fff; background: #fe5e00; }
+
+nav > a.klab {color: #fff; background: #42c268; }
+
+nav > a.perkin {color: #fff; background: #b0eb6d; }
+
+nav > a.nejm {color: #fff; background: #3ac6ef; }
+
+nav > a.ascboston {color: #fff; background: #b5aafa; }
+
+nav > a.kid {color: #fff; background: #fd89ee; }
+
+nav > a.books  {color: #fff; background: #b4986c; }
+
+
+nav > a {
+  -moz-box-shadow:    0 0 5px black;
+  -webkit-box-shadow: 0 0 30px black;
+  box-shadow:         0 0 5px black;
+  -moz-transition: text-shadow 1s linear;
+  -webkit-transition: text-shadow 1s linear;
+  -o-transition: text-shadow 1s linear;
+  transition: text-shadow 1s linear;
+}
+
+nav > a:hover {
+  -moz-box-shadow:    0 0 25px black;
+  -webkit-box-shadow: 0 0 150px black;
+  box-shadow:         0 0 25px black;
+  text-decoration:none;
+}
+
+/*  END home page styles  */
+
+/*  Client page styles  */
+
+h1 {
+  width:98%;
+  margin:1em 0 0;
+  padding:0;
+  font-size:1.5em;
+  line-height:1.7em;
+  font-weight:bold;
+  color:#000000;
+  background:#ff9900;
+}
+
+.client {
+float:left;
+margin:0 15px 20px 0;
+border:2px solid #f90;
+overflow:visible;
+}
+
+.clientsecond {
+float:left;
+margin:0 0 20px 0;
+border:2px solid #f90;
+overflow:visible;
+}
+
+.clientthird {
+float:left;
+margin:0 20px 20px 0;
+border:2px solid #f90;
+overflow:visible;
+}
+
+
+img.aboutme {
+border:2px solid #42c268;
+}
+
+img.resume {
+border:2px solid #42c268;
+}
+
+img.klab {
+border:2px solid #42c268;
+}
+
+img.perkin {
+border:2px solid #b0eb6d;
+}
+
+img.nejm {
+border:2px solid #3ac6ef;
+}
+
+img.ascboston {
+border:2px solid #b5aafa;
+}
+
+img.kid {
+border:2px solid #fd89ee;
+}
+
+img.books {
+border:2px solid #b4986c;
+}
+
+p.first {
+  width:29.375em;
+  margin: 1.2em 0 1.2em 0;
+  padding:0.8em;
+  background:#ddd;
+  font-size:0.9em;
+  line-height:1.2em;
+  font-family: Georgia, Times New Roman,Times,serif;
+  text-align:left;
+  font-weight:normal;
+  float:left;
+}
+ 
+p.second {
+  width:29.375em;
+  margin: 1.2em 1em 1.2em 0;
+  padding:0.8em;
+  background:#ddd;
+  font-size:0.9em;
+  line-height:1.2em;
+  font-family: Georgia, Times New Roman,Times,serif;
+  text-align:left;
+  font-weight:normal;
+  float:right;
+}
+
+a {
+  font-weight:bold;
+  color:#00944D;
+  font-family:Arial, Helvetica, sans-serif;
+  text-decoration:underline;
+}
+
+small.copyright {
+	display:block;
+	width:96%;
+	margin:1.2em 0;
+	padding:0.5em 0.8em;
+	clear:both;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:0.9em;
+	font-weight:bold;
+	color:#000;
+	text-align:left;
+}
+
+/*  END Client page styles  */
+
+/*  Information page styles  */
+
+.contactheader {
+	display: none;
+}	
+	
+h2 {
+	font-size: 0.9em;
+	line-height: 1.2em;
+	text-align: left;
+	width:96%;
+	margin:0;
+	padding:.5em .5em .5em 1em;
+	background:#b0eb6d;
+	font-weight:bold;
+	text-transform:uppercase;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+
+h5 {
+	width:96%;
+	margin:0;
+	padding:.5em .5em .5em 1em;
+	background:#dfc;
+	font-size:0.9em;
+    line-height:1.2em;
+	font-family: Georgia, Times New Roman,Times,serif;
+	font-weight:bold;
+	text-align:left;
+}
+
+
+.descrip {
+  width:95.9%;
+  margin: 0 0 1.2em 0;
+  padding: 0.8em;
+  color:#000;
+  background:#fff;
+  font-size:0.9em;
+  line-height:1.4em;
+  font-family: Georgia, Times New Roman,Times,serif;
+  text-align:left;
+  font-weight:normal;
+  word-spacing:0.1em;
+}
+
+/*  END Information page styles  */
+
+@media only screen and (max-device-width : 767px){
+.logo {
+   background:url(../logo-ms-walsh-bw@2x.png) no-repeat;
+   width: 288px;
+   height: 288px;
+   margin: 1em auto 0;
+   border:none; 
+}
+
+
+body.front-page .tagline {
+    margin: 0;
+    width: 100%;
+}
+
+body.front-page .tagline p {
+    font-size: 2em;
+	line-height: 2em;
+}
+
+nav > a {
+	display:inline-block;
+	width:17em;
+	min-height:8em;
+	margin:1em 0;
+	padding:0.2em 1em;
+	border:thick solid #fff;
+	text-align:center;
+	vertical-align:bottom;
+	text-decoration:none;
+	color:#fff;
+}
+
+h1 {width:100%; margin: 1em 0 0 0; font-size:2em; line-height:2em; text-align:center;}
+
+p.first {display:block;width:96%; float:left; background:#ddd; margin:1.2em 0;font-size:1.5em; line-height:1.6em;}
+p.second {display:block;width:96%; float:left; background:#ddd; margin:1.2em 0;font-size:1.5em; line-height:1.6em;}
+p > a {font-family:Arial, Helvetica, sans-serif;font-weight:bold; color:#00944D; text-decoration:underline; }
+p.descrip {display:block;width:96%; font-size:1.5em; line-height:1.6em;
+}
+h2 {display:block;width:96%; font-size:1.5em; line-height:1.6em;
+}
+h5 {display:block;width:96%; font-size:1.5em; line-height:1.6em;
+}
+
+small.copyright {display:block; text-align:left; width:96%; font-size:1.5em; line-height:1.6em;}
+}
+
+@media print {
+	 * {background:transparent !important; color: black !important; box-shadow:none; transition:none; text-shadow: none !important; filter: none !important; -ms-filter: none !important; }
+	a, a:visited {text-decoration: underline;}
+	img {page-break-inside: avoid; text-align:center;border: 1pt solid black;}
+	@page {margin: .5in;}
+	h1, h2, h3, h4, h5, h6 {page-break-after: avoid; text-align: left; font-weight:bold; margin:0;font-family: "Adobe Caslon Pro",Georgia,"Times New Roman",Times,serif;}
+	h1 {font-size: 18pt; line-height:18pt;text-align:center;}
+	h2, h5 {text-transform: uppercase; font-family:Arial, Helvetica, sans-serif;font-size:10pt; line-height:13pt;}
+	h3, h4 {font-size: 14pt; line-height:16pt;}
+	
+	p {font-family: "Adobe Caslon Pro",Georgia,"Times New Roman",Times,serif; text-align:left; font-weight:normal; margin: 0 0 4pt 0;font-size:10pt; line-height:13pt;}
+	small.copyright {
+		font-family:Arial, Helvetica, sans-serif;
+		font-size:8pt;
+		line-height: 8pt;
+		margin: 4pt 0;
+		 }	
+.logo {	display:none;}
+.contactheader {display: block;}	
+	
+}  /* end media print */

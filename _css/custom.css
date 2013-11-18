@@ -1,0 +1,50 @@
+.carousel {
+  position: relative;
+  margin-bottom: 20px;
+  line-height: 1;
+  border: thick solid #f90;
+}
+
+.carousel-control {
+  font-size: 40px !important;
+}
+
+.carousel-indicators {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  z-index: 5;
+  margin: 0;
+  list-style: none;
+}
+
+.carousel-indicators li {
+  display: block;
+  float: left;
+  width: 10px;
+  height: 10px;
+  margin-left: 5px;
+  text-indent: -999px;
+  background-color: #aaa;
+  background-color: rgba(184,184,184,1);
+  border-radius: 5px;
+}
+
+.carousel-indicators .active {
+  background-color: #f90;
+}
+
+@media only screen and (max-device-width : 767px){
+	
+	.carousel-caption p {
+		display:none;
+	}
+	
+	.carousel-indicators li {
+  display:none;
+	}
+
+	.carousel-indicators .active {
+  display:none;
+	}
+}
